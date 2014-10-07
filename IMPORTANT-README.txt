@@ -21,3 +21,22 @@ DO NOT Push code from Staging to SparkCRM-Develop.
 DO NOT Push code from Production to Staging.
 
 That's all folks !!
+
+----------
+CHANGE LOG
+==========
+
+07-10-2014_14:18:00 ricktimmis
+
+Added to file lines to .gitignore config_override.php and /custom/blowfish/*
+The first is to ensure that Theme changes in the Production version don't get clobbered by an updated
+The second to so that SHA Hashes which are instance specific don't get clobbered either
+
+	------
+
+07-10-2014_11:55:00 ricktimms
+
+Installed the Gantt Chart module, which potentially makes some changes in the database
+I dropped a mysqldump of the DB which can be run against the Production instance if required
+
+	------
