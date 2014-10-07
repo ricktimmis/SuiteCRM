@@ -698,6 +698,11 @@ $app_list_strings['aow_run_on_list']['Modified_Records'] = 'Modified Records';
 
 
 
+ 
+
+$app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Gantt';
+$app_strings['LBL_GANTT_BUTTON_TITLE'] = 'View Gantt';
+
 
 /**
  *

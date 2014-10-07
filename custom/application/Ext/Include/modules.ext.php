@@ -104,6 +104,15 @@ $moduleList[] = 'FP_Event_Locations';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['Gantt'] = 'Gantt';
+$beanFiles['Gantt'] = 'modules/Gantt/Gantt.php';
+$modules_exempt_from_availability_check['Gantt'] = 'Gantt';
+$report_include_modules['Gantt'] = 'Gantt';
+$modInvisList[] = 'Gantt';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['AOD_IndexEvent'] = 'AOD_IndexEvent';
 $beanFiles['AOD_IndexEvent'] = 'modules/AOD_IndexEvent/AOD_IndexEvent.php';
 $modules_exempt_from_availability_check['AOD_IndexEvent'] = 'AOD_IndexEvent';

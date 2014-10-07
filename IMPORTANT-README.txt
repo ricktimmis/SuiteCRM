@@ -12,6 +12,8 @@ This is a clone of the SparkCRM-Develop origin which is also resides on Ricks La
 See the WiFi SPARK Wiki SparkCRM for details of the source repository management and development
 structure and strategy.
 
+link: http://wiki/development/sparkcrm-dev
+
 ** NOTE **    <-- LOOK IMPORTANT BIT
 ========= 
 

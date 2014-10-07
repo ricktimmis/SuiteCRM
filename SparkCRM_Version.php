@@ -5,6 +5,6 @@
 # @Author: Rick Timmis <rtimmis@wifispark.com>
 
 
-$SparkCRM_version = "1.0.1"
+$SparkCRM_version = "1.0.2"
 
 ?>
