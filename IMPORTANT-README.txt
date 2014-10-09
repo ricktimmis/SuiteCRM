@@ -26,6 +26,12 @@ That's all folks !!
 CHANGE LOG
 ==========
 
+09-10-2013_10:34:00 ricktimmis
+
+Modified the .gitignore file to include some modifications in the custom directory. This is so that updates, custom modules, and customisations
+and business logic. deployed in the Staging instances gets carries across to the Production instance.
+Bumped the SparkCRM.php version number to 1.0.3
+
 07-10-2014_14:18:00 ricktimmis
 
 Added to file lines to .gitignore config_override.php and /custom/blowfish/*

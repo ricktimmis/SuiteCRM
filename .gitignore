@@ -9,7 +9,7 @@ upload/*
 custom/history/*
 custom/modulebuilder/*
 custom/working/*
-custom/modules/*/Ext/
+#custom/modules/*/Ext/
 # Custom configuration should also be ignored.
 /config.php
 # Connector configuration should also be ignored.
@@ -56,6 +56,7 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 .DS_Store?
+*.kdev4
 # Disytel
 lang_cmp.php
 config_override.php
