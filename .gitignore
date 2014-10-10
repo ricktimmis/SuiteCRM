@@ -1,15 +1,16 @@
 ## First part from https://github.com/github/gitignore/blob/master/SugarCRM.gitignore
 # Ignore custom .htaccess stuff.
 /.htaccess
-# Ignore large parts of the annoying cache directory without breaking things.
-cache/*
+# Ignore  parts of the annoying cache directory without breaking things.
+#cache/* <- ricktimmis
+cache/smarty
 upload/*
 !upload/index.html
 # Ignore some files and directories from the custom directory.
 custom/history/*
-custom/modulebuilder/*
+# custom/modulebuilder/* <- ricktimmis
 custom/working/*
-#custom/modules/*/Ext/
+# custom/modules/*/Ext/
 # Custom configuration should also be ignored.
 /config.php
 # Connector configuration should also be ignored.
