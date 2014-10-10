@@ -2,6 +2,11 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2014-10-09 15:14:47
+$dictionary['Opportunity']['fields']['wfs_opp_capex_c']['labelValue']='Capex';
+
+ 
+
 
 $dictionary['Opportunity']['fields']['SecurityGroups'] = array (
   	'name' => 'SecurityGroups',
@@ -17,6 +22,16 @@ $dictionary['Opportunity']['fields']['SecurityGroups'] = array (
 
 
 
+
+ // created: 2014-10-09 15:13:36
+$dictionary['Opportunity']['fields']['wfs_opp_opex_c']['labelValue']='Opex';
+
+ 
+
+ // created: 2014-10-09 15:39:34
+$dictionary['Opportunity']['fields']['wfs_opp_maintenance_c']['labelValue']='Maintenance';
+
+ 
 
  // created: 2014-10-02 12:13:03
 
@@ -71,6 +86,21 @@ $dictionary["Opportunity"]["relationships"]["opportunity_aos_contracts"] = array
 
 
  // created: 2014-10-02 12:13:03
+
+ 
+
+ // created: 2014-10-09 15:15:46
+$dictionary['Opportunity']['fields']['wfs_opp_mng_srvc_c']['labelValue']='Managed Services';
+
+ 
+
+ // created: 2014-10-09 15:16:20
+$dictionary['Opportunity']['fields']['wfs_opp_connex_c']['labelValue']='Connectivity';
+
+ 
+
+ // created: 2014-10-09 15:16:59
+$dictionary['Opportunity']['fields']['wfs_opp_filtering_c']['labelValue']='Content Filtering';
 
  
 ?>

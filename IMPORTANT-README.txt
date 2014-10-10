@@ -26,6 +26,13 @@ That's all folks !!
 CHANGE LOG
 ==========
 
+10-10-2014_09:50:00 ricktimmis
+
+Customised Opportunities module to include custom value fields, (Opex, Capex, Connectivity, Content Filtering, Managed Services, and Maintenance)- Hid the Opex and Opportunity_Amount fields in Edit View.
+This is to force data to be entered as intial capital outlay for the opportunity (Capex) then an Operational value based upon key service metrics. These values are calculated to provide a monthly Operational Value ( Opex)
+for the Opportunity. The Total opportunity amount is calculated as follows Opportunity_Amount = (Capex + (Opex * 12)).
+Implementation required additional fields to be created in the opportunities_cstm table, and an SQL Creation script is available in /Development. This needs to be run against the production database to make the changes.
+
 09-10-2013_10:34:00 ricktimmis
 
 Modified the .gitignore file to include some modifications in the custom directory. This is so that updates, custom modules, and customisations

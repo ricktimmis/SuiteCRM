@@ -5,6 +5,8 @@
 $hook_array = Array(); 
 // position, file, function 
 $hook_array['before_save'] = Array(); 
+// Rick T - Additional Logic Hooks
+$hook_array['before_save'][] = Array(10, 'UpdateOpportunityValue', 'custom/modules/Opportunities/wfs_opportunities_LogicHook.php','OpportunityCalculationHook', 'UpdateOpportunityValue');
 $hook_array['before_save'][] = Array(77, 'updateGeocodeInfo', 'custom/modules/Opportunities/OpportunitiesJjwg_MapsLogicHook.php','OpportunitiesJjwg_MapsLogicHook', 'updateGeocodeInfo'); 
 $hook_array['before_save'][] = Array(1, 'Opportunities push feed', 'modules/Opportunities/SugarFeeds/OppFeed.php','OppFeed', 'pushFeed'); 
 $hook_array['after_ui_frame'] = Array(); 
