@@ -26,6 +26,14 @@ That's all folks !!
 CHANGE LOG
 ==========
 
+24-10-2014_10:30:00 ricktimmis
+
+Changed Opportunities QuickCreate Subpanel to reflect custom opportunity fields as shown below. Corrected Bug
+where by amoun_usdollar was not being updated, and so Opportunity sub-panels not showing values. Also re-order logic hook execution, so that Activity stream would also show correct value for Opportunities.
+Modified Employees list view layout to show Mobile number.
+Modified drop down lists, in Bugs, and Projects
+Bumped SparkCRM.php version number to 1.0.4 
+
 10-10-2014_09:50:00 ricktimmis
 
 Customised Opportunities module to include custom value fields, (Opex, Capex, Connectivity, Content Filtering, Managed Services, and Maintenance)- Hid the Opex and Opportunity_Amount fields in Edit View.

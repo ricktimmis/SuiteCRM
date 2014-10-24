@@ -118,4 +118,12 @@ array (
 );
 
 $layout_defs["Accounts"]["subpanel_setup"]["history"]['top_buttons'][] = array('widget_class' => 'SubPanelTopFilterButton');
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['contacts']['override_subpanel_name'] = 'Account_subpanel_contacts';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['opportunities']['override_subpanel_name'] = 'Account_subpanel_opportunities';
+
 ?>
