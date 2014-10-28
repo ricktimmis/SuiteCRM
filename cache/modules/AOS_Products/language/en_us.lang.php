@@ -1,5 +1,5 @@
 <?php
-// created: 2014-10-02 12:15:54
+// created: 2014-10-27 16:19:40
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -46,4 +46,5 @@ $mod_strings = array (
   'LBL_COST_USDOLLAR' => 'Cost (Default Currency)',
   'LBL_PRICE_USDOLLAR' => 'Price (Default Currency)',
   'LBL_FILE_URL' => 'File URL',
+  'LBL_DISCOUNT' => 'Discount',
 );

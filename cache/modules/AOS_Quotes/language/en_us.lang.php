@@ -1,5 +1,5 @@
 <?php
-// created: 2014-10-02 12:15:54
+// created: 2014-10-27 16:10:52
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -180,4 +180,5 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_USDOLLAR' => 'Shipping Tax (Default Currency)',
   'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Shipping Tax (Default Currency)',
   'LBL_GRAND_TOTAL_USDOLLAR' => 'Grand Total (Default Currency)',
+  'LBL_QUOTE_TYPE' => 'Quote Type',
 );

@@ -1,5 +1,5 @@
 <?php
-// created: 2014-10-02 12:15:54
+// created: 2014-10-28 10:12:58
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -24,7 +24,7 @@ $mod_strings = array (
   'LBL_PRIORITY' => 'Priority:',
   'LBL_RESOLUTION' => 'Resolution:',
   'LBL_LAST_MODIFIED' => 'Last Modified',
-  'LBL_WORK_LOG' => 'Work Log:',
+  'LBL_WORK_LOG' => 'Demonstrate:',
   'LBL_CREATED_BY' => 'Created by:',
   'LBL_DATE_CREATED' => 'Create Date:',
   'LBL_MODIFIED_BY' => 'Last Modified by:',
@@ -89,5 +89,8 @@ $mod_strings = array (
   'LBL_EXPORT_FIXED_IN_RELEASE_NAMR' => 'Fixed in Release Name',
   'LBL_EXPORT_MODIFIED_USER_ID' => 'Modified By ID',
   'LBL_EXPORT_CREATED_BY' => 'Created By ID',
+  'LBL_DEV_POINTS_ESTIMATE' => 'Points Estimate',
+  'LBL_DEV_POINTS_ACTUAL' => 'Points Actual',
+  'LBL_WIKI_TEST_SPECIFICATION' => 'Wiki Test Specification',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 );

@@ -26,6 +26,18 @@ That's all folks !!
 CHANGE LOG
 ==========
 
+28-10-2014_13:30:00 ricktimmis
+
+Several updates and customisations to fields and layouts in Modules, Bugs, Products, Quotes and Tasks. Additions to industry_dom 
+Customisations created some new tables, and additional field meta data, these are taken care of using the 
+
+sparkcrm-schema-update-28-10-2014.sql script.
+
+** NOTE:  Upgrading to this version WILL require the above sql update script to be run against the production database. **
+
+Bumped SparkCRM.php version number to 1.0.5  
+
+
 24-10-2014_10:30:00 ricktimmis
 
 Changed Opportunities QuickCreate Subpanel to reflect custom opportunity fields as shown below. Corrected Bug
