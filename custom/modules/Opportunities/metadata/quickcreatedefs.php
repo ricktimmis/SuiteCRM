@@ -97,15 +97,24 @@ array (
         ),
         5 => 
         array (
+          0 => 
+          array (
+            'name' => 'wfs_expected_revenue_c',
+            'label' => 'LBL_WFS_EXPECTED_REVENUE',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
           0 => 'next_step',
           1 => 'sales_stage',
         ),
-        6 => 
+        7 => 
         array (
           0 => 'lead_source',
           1 => 'probability',
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (

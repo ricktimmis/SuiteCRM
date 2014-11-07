@@ -144,3 +144,32 @@ $GLOBALS['app_list_strings']['industry_dom']=array (
   'Partner' => 'Partner',
   'Towns' => 'Towns',
 );
+$GLOBALS['app_list_strings']['product_category_dom']=array (
+  '' => '',
+  'PHASEXI' => 'PHASEXI',
+  'FLINT' => 'FLINT',
+  'DEVENV' => 'DEVENV',
+  'SPARKCRM' => 'SPARKCRM',
+);
+$GLOBALS['app_list_strings']['sales_stage_dom']=array (
+  'Prospecting' => 'Prospecto',
+  'Value Proposition' => 'Propuesta de Valor',
+  'Proposal/Price Quote' => 'Propuesta/Presupuesto',
+  'Negotiation/Review' => 'Negociación/Revisión',
+  'Closed Won' => 'Ganado',
+  'Closed Lost' => 'Perdido',
+);
+$GLOBALS['app_list_strings']['sales_probability_dom']=array (
+  'Prospecting' => '10',
+  'Value Proposition' => '30',
+  'Proposal/Price Quote' => '65',
+  'Negotiation/Review' => '80',
+  'Closed Won' => '100',
+  'Closed Lost' => '',
+);
+$GLOBALS['app_list_strings']['sales_reason_lost_list']=array (
+  '' => '',
+  'Too_Expensive' => 'Too Expensive',
+  'Missed_Budget_Window' => 'Missed Budget Window',
+  'Feature_Set_Shortfall' => 'Feature Set Shortfall',
+);

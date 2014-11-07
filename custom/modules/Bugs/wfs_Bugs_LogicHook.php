@@ -22,12 +22,14 @@
  
 if (!defined('sugarEntry') || !sugarEntry)
     die('Not A Valid Entry Point');
+/*
+* This is a copy of Opps Hook, for reference will use later FIXME ricktimmis
 
 class OpportunityCalculationHook {
     function UpdateOpportunityValue(&$bean, $event, $arguments) {
     // before_save
     // DEBUG
-    $GLOBALS['log']->debug("WiFiSPARK - Calculate Opportunity Value Hook called");
+    $GLOBALS['log']->debug("WiFiSPARK - Update Bug Story Points Actual Opportunity Value Hook called");
     $bean->wfs_opp_opex_c = ( $bean->wfs_opp_mng_srvc_c + $bean->wfs_opp_connex_c + $bean->wfs_opp_filtering_c + $bean->wfs_opp_maintenance_c );
     $bean->amount = ( $bean->wfs_opp_capex_c + ($bean->wfs_opp_opex_c * 12) + ($bean->wfs_expected_revenue_c * 12));
     // Now lets do a currency conversion, and load that value into amount_usdollar
@@ -35,6 +37,7 @@ class OpportunityCalculationHook {
     $currency->retrieve($bean->currency_id);
     $bean->amount_usdollar = $currency->convertToDollar($bean->amount);
     }
+*/
 } 
  
  

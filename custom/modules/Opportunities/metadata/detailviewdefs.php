@@ -81,7 +81,11 @@ array (
         ),
         4 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'wfs_expected_revenue_c',
+            'label' => 'LBL_WFS_EXPECTED_REVENUE',
+          ),
           1 => 
           array (
             'name' => 'wfs_opp_mng_srvc_c',
@@ -126,10 +130,29 @@ array (
         ),
         10 => 
         array (
-          0 => 'next_step',
+          0 => '',
           1 => 'campaign_name',
         ),
         11 => 
+        array (
+          0 => 'next_step',
+          1 => 
+          array (
+            'name' => 'reason_lost_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REASON_LOST',
+          ),
+        ),
+        12 => 
+        array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'wfs_opp_sage_sales_order_c',
+            'label' => 'LBL_WFS_OPP_SAGE_SALES_ORDER',
+          ),
+        ),
+        13 => 
         array (
           0 => 
           array (

@@ -26,6 +26,23 @@ That's all folks !!
 CHANGE LOG
 ==========
 
+07-11-2014_16:09:00 ricktimmis
+
+1 - Updated Email notifications in include/language/en_us.notify_template.html
+2 - Introduced Bug Catagories ( PHASEXI, FLINT, DEVENV, SPARKCRM ) these can be used with code as unique identifies e.g #See Bug DEVENV-1174
+3 - Removed redundant Sales Stages ( Qualification, Needs, Analysis, ID Decision, Perception Analysis ) Created Sales Stage Parked with probability of 20%
+4 - Created Sales Opportunities "Reason Lost" dropdown field sales Opportunities 
+5 - Introduced a Sage Sales Order reference field to Sales Opportunities for use by Admin and Finance
+6 - Auto completion of Bug Story point time recording, from a Task to a Parent Bug
+7 - Additional Expected Revenue field in Opportuntiies, In this field is entered a monthly anticipated value of WiFi access sales.
+The value is multiplied by 12 and added to the Opportunity value.
+
+sparkcrm-schema-update-06-11-2014.sql script.
+
+** NOTE:  Upgrading to this version WILL require the above sql update script to be run against the production database. *
+
+Bumped SparkCRM.php version number to 1.0.5
+
 28-10-2014_13:30:00 ricktimmis
 
 Several updates and customisations to fields and layouts in Modules, Bugs, Products, Quotes and Tasks. Additions to industry_dom 

@@ -28,6 +28,11 @@ $dictionary['Opportunity']['fields']['wfs_opp_opex_c']['labelValue']='Opex';
 
  
 
+ // created: 2014-11-06 10:29:22
+$dictionary['Opportunity']['fields']['reason_lost_c']['labelValue']='Reason Lost';
+
+ 
+
  // created: 2014-10-09 15:39:34
 $dictionary['Opportunity']['fields']['wfs_opp_maintenance_c']['labelValue']='Maintenance';
 
@@ -38,6 +43,16 @@ $dictionary['Opportunity']['fields']['wfs_opp_maintenance_c']['labelValue']='Mai
  
 
  // created: 2014-10-02 12:13:03
+
+ 
+
+ // created: 2014-11-06 11:37:16
+$dictionary['Opportunity']['fields']['wfs_opp_sage_sales_order_c']['labelValue']='Sage SO';
+
+ 
+
+ // created: 2014-11-06 10:32:19
+$dictionary['Opportunity']['fields']['wfs_expected_revenue_c']['labelValue']='Expected Revenue';
 
  
 

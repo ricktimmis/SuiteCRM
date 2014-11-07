@@ -489,6 +489,27 @@
     'discount_c' => 
     array (
       'labelValue' => 'Discount',
+      'required' => false,
+      'source' => 'custom_fields',
+      'name' => 'discount_c',
+      'vname' => 'LBL_DISCOUNT',
+      'type' => 'bool',
+      'massupdate' => '0',
+      'default' => '0',
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'Check box if this Product is discountable',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+      'id' => 'AOS_Productsdiscount_c',
+      'custom_module' => 'AOS_Products',
     ),
   ),
   'relationships' => 
@@ -552,4 +573,5 @@
     'assignable' => 'assignable',
     'basic' => 'basic',
   ),
+  'custom_fields' => true,
 );
