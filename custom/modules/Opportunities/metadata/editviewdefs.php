@@ -28,6 +28,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_PANEL_ASSIGNMENT' => 
         array (
           'newTab' => false,
@@ -105,7 +110,11 @@ array (
         ),
         6 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'wfs_contract_term_c',
+            'label' => 'LBL_WFS_CONTRACT_TERM',
+          ),
           1 => 'opportunity_type',
         ),
         7 => 
@@ -130,16 +139,19 @@ array (
         ),
         10 => 
         array (
-          0 => '',
-          1 => 
+          0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
           array (
             'name' => 'wfs_opp_sage_sales_order_c',
             'label' => 'LBL_WFS_OPP_SAGE_SALES_ORDER',
           ),
-        ),
-        11 => 
-        array (
-          0 => 'description',
+          1 => '',
         ),
       ),
       'LBL_PANEL_ASSIGNMENT' => 

@@ -26,6 +26,16 @@ That's all folks !!
 CHANGE LOG
 ==========
 
+26-11-2014_10:15:00 ricktimmis
+
+1 - Introduced Activity Stream Updates for Bugs, this enables us to see when new Features, Issues, Enhancements for the
+    SPARK MSM and the SPARK USG products are requested, and when they become completed.
+2 - Fixed Task to Bug updates for Story points see #Bug 34
+3 - Internal to Rick - Placed stub logic hooks n Quotes module ready for later
+4 - Opportunities - Added Admin / Finance panel, and moved Sage SO Field to that panel, Additional "Contract Term" field added
+
+Updating this version requires deployment of sparkcrm-schema-update-26-11-2014.sql script to be applied to the database.
+
 07-11-2014_16:09:00 ricktimmis
 
 1 - Updated Email notifications in include/language/en_us.notify_template.html
@@ -41,7 +51,7 @@ sparkcrm-schema-update-06-11-2014.sql script.
 
 ** NOTE:  Upgrading to this version WILL require the above sql update script to be run against the production database. *
 
-Bumped SparkCRM.php version number to 1.0.5
+Bumped SparkCRM.php version number to 1.0.6
 
 28-10-2014_13:30:00 ricktimmis
 

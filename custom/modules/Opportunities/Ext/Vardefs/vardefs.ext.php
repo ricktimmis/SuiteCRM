@@ -42,6 +42,11 @@ $dictionary['Opportunity']['fields']['wfs_opp_maintenance_c']['labelValue']='Mai
 
  
 
+ // created: 2014-11-20 15:31:11
+$dictionary['Opportunity']['fields']['wfs_contract_term_c']['labelValue']='Contract Term';
+
+ 
+
  // created: 2014-10-02 12:13:03
 
  

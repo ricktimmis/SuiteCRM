@@ -6,4 +6,5 @@ $feedModules = array (
   'Contacts' => 'Contacts',
   'Cases' => 'Cases',
   'Leads' => 'Leads',
+  'Bugs' => 'Bugs',
 );

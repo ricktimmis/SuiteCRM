@@ -1,5 +1,5 @@
 <?php
-// created: 2014-11-06 11:37:20
+// created: 2014-11-20 15:34:41
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -122,5 +122,8 @@ $mod_strings = array (
   'LBL_REASON_LOST' => 'Reason Lost',
   'LBL_WFS_EXPECTED_REVENUE' => 'Expected Revenue',
   'LBL_WFS_OPP_SAGE_SALES_ORDER' => 'Sage SO',
+  'LBL_EDITVIEW_PANEL1' => 'Admin / Finance',
+  'LBL_WFS_CONTRACT_TERM' => 'Contract Term',
+  'LBL_DETAILVIEW_PANEL1' => 'Admin / Finance',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 );

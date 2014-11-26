@@ -37,6 +37,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_PANEL_ASSIGNMENT' => 
         array (
           'newTab' => false,
@@ -120,20 +125,29 @@ array (
         ),
         8 => 
         array (
-          0 => 'sales_stage',
+          0 => 
+          array (
+            'name' => 'wfs_contract_term_c',
+            'label' => 'LBL_WFS_CONTRACT_TERM',
+          ),
           1 => 'opportunity_type',
         ),
         9 => 
         array (
+          0 => 'sales_stage',
+          1 => '',
+        ),
+        10 => 
+        array (
           0 => 'probability',
           1 => 'lead_source',
         ),
-        10 => 
+        11 => 
         array (
           0 => '',
           1 => 'campaign_name',
         ),
-        11 => 
+        12 => 
         array (
           0 => 'next_step',
           1 => 
@@ -143,15 +157,6 @@ array (
             'label' => 'LBL_REASON_LOST',
           ),
         ),
-        12 => 
-        array (
-          0 => '',
-          1 => 
-          array (
-            'name' => 'wfs_opp_sage_sales_order_c',
-            'label' => 'LBL_WFS_OPP_SAGE_SALES_ORDER',
-          ),
-        ),
         13 => 
         array (
           0 => 
@@ -159,6 +164,18 @@ array (
             'name' => 'description',
             'nl2br' => true,
           ),
+        ),
+      ),
+      'lbl_detailview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'wfs_opp_sage_sales_order_c',
+            'label' => 'LBL_WFS_OPP_SAGE_SALES_ORDER',
+          ),
+          1 => '',
         ),
       ),
       'LBL_PANEL_ASSIGNMENT' => 

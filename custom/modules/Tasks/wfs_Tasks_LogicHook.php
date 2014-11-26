@@ -31,7 +31,7 @@ class BugStoryPointUpdateHook {
 
     function TaskPointsUpdate(&$bean, $event, $arguments){
    
-    // Before Save: We only need to make this update is this Task is related to a Bug
+    // Before Save: We only need to make this update if this Task is related to a Bug
     $related = array();
     // Don't do anything unless the Task Status is set at Complete
     if ($bean->status != "Completed"){
@@ -58,14 +58,14 @@ class BugStoryPointUpdateHook {
       //$GLOBALS['log']->info("LOGIC HOOK (TaskPointsUpdate) Have attempted retrieve Bug : ".$relatedobject->id);
       // Now we need to know if this is a new task, or an updated one
       if ( !empty($bean->fetched_row) && !empty($bean->fetched_row['id'])){
-	// We are working with an amended task. Check story point record for changes
-	if (($bean->fetched_row['dev_story_points_c']) != ($bean->dev_story_points_c)){
-	  $StoryPointsUpdate = (($bean->dev_story_points_c) - ($bean->fetched_row['dev_story_points_c']));
-        }
-	else {
-	$StoryPointsUpdate = ($bean->dev_story_points_c);
-	//$GLOBALS['log']->info("LOGIC HOOK (TaskPointsUpdate) Task has Story Point value of : ".$StoryPointsUpdate);
-	}
+	//We are working with an amended task. Check story point record for changes
+	if (($bean->fetched_row['dev_story_points_c'] > 0) && (($bean->fetched_row['dev_story_points_c']) != ($bean->dev_story_points_c))){
+	    $StoryPointsUpdate = (($bean->dev_story_points_c) - ($bean->fetched_row['dev_story_points_c']));
+	  }
+	  else{
+	  $StoryPointsUpdate = ($bean->dev_story_points_c);
+	  //$GLOBALS['log']->info("LOGIC HOOK (TaskPointsUpdate) Task has Story Point value of : ".$StoryPointsUpdate);
+	  }
       }
       
       // Add the story points from this Task to the dev_points_actual_c field for the BugFocus

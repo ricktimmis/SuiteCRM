@@ -1,5 +1,5 @@
 <?php
-// created: 2014-10-02 12:15:54
+// created: 2014-11-18 11:34:24
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -88,4 +88,6 @@ $mod_strings = array (
   'LBL_URL_LINK_TITLE' => 'URL Link to use',
   'LBL_TEAM_VISIBILITY_TITLE' => 'team that can see this post',
   'LBL_SOCIAL' => 'Social',
+  'CREATED_BUG' => 'created a <b>NEW</b> {0}',
+  'CLOSED_BUG' => '<b>CLOSED</b> a {0} ',
 );
