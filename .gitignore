@@ -62,3 +62,6 @@ Desktop.ini
 lang_cmp.php
 config_override.php
 custom/blowfish/*
+.kdev4/
+SuiteCRM.kdev4
+
